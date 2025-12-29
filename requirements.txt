@@ -1,0 +1,14 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+xgboost
+opencv-python
+torch
+torchvision
+tqdm
+grad-cam
+jupyter
+openpyxl
+openpyxl
