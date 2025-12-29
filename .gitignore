@@ -1,3 +1,8 @@
 venv/ 
 *.pyd 
 *.dll 
+outputs/
+notebooks/*_files/
+*.png
+*.jpg
+*.jpeg
