@@ -69,10 +69,12 @@ outputs/
    jupyter notebook
    ```
 
-2. Navigate to:
+2. Run notebooks in this order:
 
    ```
-   notebooks/image_feature_extraction.ipynb
+  a) notebooks/image_feature_extraction.ipynb   → generates image embeddings(CSV)
+  b) notebooks/model_training.ipynb             → trains fused model and saves final predictions
+
    ```
 
    and run all cells top-to-bottom.
@@ -80,7 +82,7 @@ outputs/
 3. The final predictions are saved at:
 
    ```
-   outputs/submission.csv  (id, predicted_price)
+   outputs/23117123_final.csv  (id, predicted_price)
    ```
 
 ---
