@@ -71,13 +71,10 @@ outputs/
 
 2. Run notebooks in this order:
 
-   ```
+   ```bash
   a) notebooks/image_feature_extraction.ipynb   → generates image embeddings(CSV)
   b) notebooks/model_training.ipynb             → trains fused model and saves final predictions
-
    ```
-
-   and run all cells top-to-bottom.
 
 3. The final predictions are saved at:
 
